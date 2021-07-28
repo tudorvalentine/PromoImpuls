@@ -1,0 +1,11 @@
+@mixin font($name, $pathttf, $pathwoff, $pathwoff2, $style){
+   @font-face {
+    font-family:$name;
+    src: $pathttf;
+    src: $pathwoff;
+    src: $pathwoff2;
+    font-style: $style;
+   }
+    
+}
+
