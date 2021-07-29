@@ -7,7 +7,9 @@
 <body>
 	<header class="header">
 		<div class="container">
-		@@include('components/page-blocks/_navbar.html') <!-- Include the navbar menu because it will repeat on another page -->
+		@@include('components/page-blocks/_navbar.html',{
+			"namebrand":"brand.png"
+		}) <!-- Include the navbar menu because it will repeat on another page -->
 		</div>
 		<div class="container">
 			<div class="row">
@@ -399,7 +401,7 @@
 							<h1 class="direction__title">Новости</h1>
 						</div>
 						<div class="news__all">
-							<a href="#" class="news__all-title">Все новости</a>
+							<a href="news.html" class="news__all-title">Все новости</a>
 						</div>
 					</div>
 				</div>
@@ -496,12 +498,9 @@
 </body>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-	<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/plugins/jquery-3.6.0.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
-
-	<script type="text/javascript"  src="js/jquery.spincrement.js"></script>
+	<script type="text/javascript"  src="js/plugins/jquery.spincrement.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 
 </html>

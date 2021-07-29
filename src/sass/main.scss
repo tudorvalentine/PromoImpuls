@@ -638,8 +638,10 @@ html, body {
 	padding: 0 !important;
 }
 .footer{
+	/*@media only screen and (max-width: 1024)  {
+	}*/
 	position: relative;
-	height: 500px;
+	max-height: 600px;
 	background-color: #0C0E16;
 	&__wrap-content{
 		padding:30px;

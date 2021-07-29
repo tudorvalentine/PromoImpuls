@@ -27,7 +27,7 @@ const include = require('gulp-file-include');
 function dev_js() {
 	return src(['src/components/**/*.js', 'src/js/01_main.js'])
 		.pipe(map.init())
-		//.pipe(uglify())
+		.pipe(uglify())
 		.pipe(concat('main.js'))
 		.pipe(map.write('../sourcemaps'))
 		.pipe(dest('build/js/'))
@@ -49,7 +49,7 @@ function bs_html() {
 
 function build_js() {
 	return src(['src/components/**/*.js', 'src/js/01_main.js'])
-		//.pipe(uglify())
+		.pipe(uglify())
 		.pipe(babel({
 			presets: ['@babel/env']
 		}))
