@@ -1,4 +1,4 @@
-const bs = require('browser-sync');
+const bs = require('browser-sync');;;
 
 module.exports = function bs_html() {
 	bs.init({
