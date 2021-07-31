@@ -23,5 +23,5 @@ module.exports = function bs_html() {
 		logConnections: true,
 		logFileChanges: true,
 		open: true
-	})
+	}))
 }
