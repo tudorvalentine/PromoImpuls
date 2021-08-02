@@ -44,6 +44,7 @@ window.addEventListener('scroll', function onScroll() {
               thousandSeparator: "",
               duration: 2500
          });
+            
     }
 });
 });

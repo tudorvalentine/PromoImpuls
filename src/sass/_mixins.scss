@@ -9,3 +9,39 @@
     
 }
 
+@mixin DeskH1{
+      font-family: $TTN-EB;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 54px;
+      line-height: 150%;
+}
+@mixin DeskH2{
+      font-family: $TTN-B;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 150%;
+}
+@mixin DeskH3{
+      font-family: $TTN-B;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 180%;
+}
+@mixin DeskH4{
+      font-family: $TTN-B;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 150%;
+}
+@mixin DeskH5{
+      font-family: $TTN-R;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+}
+

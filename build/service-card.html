@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Promo">
+	
+	<!-- <link rel="shortcut icon"href="@@favicon.svg" type="image/svg+xml">
+	<link rel="shortcut icon"
+				href="@@favicon.webp"
+				type="image/webp">
+	<link rel="shortcut icon"
+				href="@@favicon.png"
+				type="image/x-icon"> -->
+	<link rel="stylesheet" href="bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<title>News</title>
+</head>
+
+<body>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="container-fluid">
+    <a class="navbar-brand me-4" href="index.html">
+    	<img src="img/brand.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown me-3 my-4">
+          <a class="nav-link @@color dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            О компании
+          </a>
+          <ul class="dropdown-menu bg-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item text-menu" href="#">О нас</a></li>
+            <li><a class="dropdown-item text-menu" href="#">Реквизиты</a></li>
+            <li><a class="dropdown-item text-menu" href="#">Закупки</a></li>
+            <li><a class="dropdown-item text-menu" href="#">Партнеры</a></li>
+            <li><a class="dropdown-item text-menu" href="#">Лицензии</a></li>
+          </ul>
+          <li class="nav-item dropdown me-3 my-4">
+          <a class="nav-link @@color dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Услуги
+          </a>
+          <ul class="dropdown-menu bg-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item text-menu" href="service-card.html">Строительно-монтажные работы</a></li>
+            <li><a class="dropdown-item text-menu" href="#">Проектирование объектов теплоэнергетики</a></li>
+            <li><a class="dropdown-item text-menu" href="#">Техническое обслуживание объектов теплоэнергетики</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown me-3 my-4">
+          <a class="nav-link @@color dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Раскрытие информации
+          </a>
+          <ul class="dropdown-menu bg-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item text-menu" href="rates.html">Тарифы</a></li>
+            <li><a class="dropdown-item text-menu" href="#">-</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-menu" href="#">-</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown me-3 my-4 ">
+          <a class="nav-link @@color dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Абонентам
+          </a>
+          <ul class="dropdown-menu bg-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item text-menu" href="#">Action</a></li>
+            <li><a class="dropdown-item text-menu" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-menu" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        </li>
+        <li class="nav-item me-3 my-4">
+          <a class="nav-link @@color text" href="object.html">Наши объекты</a>
+        </li>
+        <li class="nav-item me-3 my-4">
+          <a class="nav-link @@color text" href="#">Новости</a>
+        </li>
+        <li class="nav-item me-1 my-4">
+          <a class="nav-link @@color text" href="#">Контакты</a>
+        </li>
+        <li class="nav-item  text my-2 ">
+        	<p class="@@color">+7(123) 456-78-90</p> <br>
+        	<span class="mail">yourmail@company.com</span>
+        </li>
+    </div>
+  </div>
+</nav>
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+		    <li class="breadcrumb-item"><a href="services.html">Услуги</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">Строительно-монтажные работы</li>
+		  </ol>
+		</nav>
+	</div>
+	<div class="paralax-image paralax-image_service-card"></div>
+	<div class="service-description">
+		<div class="container">
+			<div class="row">
+				<div class="col-xxl-12">
+					<div class="service-description__wrap-main">
+						<div class="service-description__inner-main service-description__inner-main_bg-blue">
+							<h2 class="service-description__title">Строительно-монтажные работы</h2>
+							<div class="service-description__link">
+								<a data-bs-toggle="modal" href="#exampleModalToggle" role="button" class="service-description__buy">ЗАКАЗАТЬ</a>
+							</div>
+						</div>
+						<div class="service-description__inner-main service-description__inner-main_bg-white">
+							<strong class="service-description__paragraph">Монтаж котельных является основным направлением деятельности нашей компании. Как правило, при монтаже котельных установок и монтаже котлов устанавливаются не только сами котлы, но и вспомогательное оборудование, такое как горелочные устройства, теплообменники, насосы котловог и сетевого контуров, группа безопасности, силовое электрооборудование.</strong>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xxl-12">
+					<div class="service-description__wrap-main">
+						<div class="service-description__text service-description__text_font">
+							<p>
+								Монтаж котлов отопления является одним из самых сложных этапов строительства, данный вид работ подразумевает под собой не только установку котлов отопления, но и их обвязку. Перед тем как производить монтаж котлов, необходимо просчитать нагрузку, которую данные котлы будут оказывать на фундамент. При монтаже котлов отопления больших мощностей требуется, как правило, дополнительный фундамент. Необходимые разместить котлы таким образом в помещении, чтобы была возможность проведения их технического обслуживания. Монтаж котельных установок, а в частности установка газовых котлов, требует детального расчёта диаметров подающих и обратных трубопроводов котлового контура (так называемых распределительных гребёнок — при разделении котлового и сетевого контуров). При слишком малом диаметре трубопроводов, при нагреве воды будет происходить большой скачок давления (до 10 кг/см3), что будет приводить к срабатыванию автоматики безопасности и остановке котельной.
+							</p>
+						</div>
+						<div class="service-description__text  service-description__inner-main_bg-blue service-description__text_spacing" >
+							<div class="service-description__line"></div>
+							<div class="service-description__wrap-number">
+								<div class="service-description__number">
+									234
+								</div>
+								<strong class="service-description__number-text">
+									Довольных клиента
+								</strong>
+							</div>
+							<div class="service-description__wrap-number">
+								<div class="service-description__number">
+									24
+								</div>
+								<strong class="service-description__number-text">
+									Еще одна цифра инфографика
+								</strong>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xxl-3">
+					<div class="service-description__titleoftwopart">Заголовок</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xxl-6">
+					<div class="service-description__text_font">
+						<p>
+							При большом диаметре не вся вода будет достаточно нагрета и не будет соответствовать технологическим нуждам. Монтаж котельного оборудования включает в себя также монтаж теплообменников, их необходимо подбирать зная параметры котлового и сетевого контуров отопления и ГВС. Основная функция теплообменников в котельной — не дать жёсткой сетевой воде попасть в котлы, таким образом продлевая эксплуатацию оборудования.
+						</p>
+						<p>
+							После монтажа котельного оборудования и сдачи котельной в эксплуатацию наша компания, в соответствии с Российским законодательствам, даёт 24 — месячную гарантию.
+						</p>
+					</div>
+				</div>
+			</div>
+				
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+				<div class="wrap__slider main__slider_center">
+						<div class="main__slider main__slider_center">
+							<div class="main__slider-content"><img src="img/slide_service.png" alt=""></div>
+							<div class="main__slider-content"><img src="img/slide_service.png" alt=""></div>
+							<div class="main__slider-content"><img src="img/slide_service.png" alt=""></div>
+						</div>
+					<div class="arrow arrow-service"></div>
+					</div>
+		</div>
+	</div>
+	<section class="form">
+		<div class="container">
+			<div class="row">
+				<div class="col-xxl-4">
+					<h3 class="form__head">Для получения детальной информации воспользуйтесь формой обратной связи</h3>
+				</div>
+				<div class="col-xxl-8">
+					<form action="" class="form__form">
+						<div class="form__data">
+							<div class="form__wrap-label-and-input">
+								<label for="name" class="form__label form__label_position form__label_bg-dark">Имя Фамилия</label>
+								<input type="text" class="form__input form__input_see">
+							</div>
+							<div class="form__wrap-label-and-input">
+								<label for="tel" class="form__label form__label_position form__label_bg-dark">Номер телефона</label>
+								<input type="tel" class="form__input form__input_see ">
+							</div>
+							<div class="form__wrap-label-and-input">
+								<label for="email" class="form__label form__label_position form__label_bg-dark">Email</label>
+								<input type="email" class="form__input form__input_see">
+							</div>
+						</div>
+						<div class="form__wrap-textarea-and-btn">
+							<textarea class="form__textarea form__input_see" rows="7" placeholder="Ваш вопрос"></textarea>
+							<input class="file__download form__submit_lock" type="submit" value="ЗАДАТЬ ВОПРОС">
+						</div>
+						
+					</form>
+				</div>
+					</div>
+			</div>
+	</section>
+
+
+<footer class="footer">
+		<div class="container">
+			<div class="footer__wrap-content">
+				<div class="row">
+					<div class="col-xxl-3 col-xl-3 col-lg-3">
+						<div class="footer__brand">
+							<img src="img/brand.png" alt="">
+							<p class="footer__brand-txt">ООО "Пром Импульс" 2021</p>
+						</div>
+					</div>
+					<div class="col-xxl-3 col-xl-3 col-lg-3">
+						<div class="footer__sections">
+							<p class="footer__title">Разделы сайта</p>
+							<ul class="footer__list">
+								<li class="footer__list_font"><a href="">О компании</a></li>
+								<li class="footer__list_font"><a href="services.html">Услуги</a></li>
+								<li class="footer__list_font"><a href="">Раскрытие информации</a></li>
+								<li class="footer__list_font"><a href="">Абонентам</a></li>
+								<li class="footer__list_font"><a href="">Наши объекты</a></li>
+								<li class="footer__list_font"><a href="news.html">Новости</a></li>
+								<li class="footer__list_font"><a href="">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xxl-3 col-xl-3 col-lg-3">
+						<div class="footer__sections">
+							<p class="footer__title">Реквизиты</p>
+							<ul class="footer__list">
+								<li class="footer__list_font">ООО "Пром Импульс"</li>
+								<li class="footer__list_font">ОГРН: 1053600591197</li>
+								<li class="footer__list_font">ИНН: 3664069397</li>
+								<li class="footer__list_font">КПП: xxxxxxxxx</li>
+								<li class="footer__list_font">ПФР: xxxxxxxxxxxx</li>
+								<li class="footer__list_font">ОКПО: xxxxxxxx</li>
+								<li class="footer__list_font">ФСС: xxxxxxxxxxxxxxx</li>
+								<li class="footer__list_font">ОКАТО: xxxxxxxxxxx</li>
+								<li class="footer__list_font">ОКТМО: xxxxxxxx</li>
+								<li class="footer__list_font">ОКОГУ: xxxxxxx</li>
+								<li class="footer__list_font">ОКФС: xx</li>
+								<li class="footer__list_font">ОКОПФ: xxxxx</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xxl-3 col-xl-3 col-lg-3">
+						<div class="footer__sections">
+							<p class="footer__title">Тел./Факс</p>
+							<p class="footer__number">+7 (812) 603-73-77</p>
+							<p class="footer__title">Адрес</p>
+							<p class="footer__list_font color-white">196084, г. Санкт-Петербург, ул. Рощинская, д. 5, лит. И</p>
+							<p class="footer__title">Email:</p>
+							<div class="footer__list_font">
+							<a href="mailto:office@promimpuls.ru" >office@promimpuls.ru</a>
+							</div>
+							<p class="footer__title mt-3">График работы:</p>
+							<p class="footer__list_font color-white">Понедельник-Пятница <br> 08:00 - 19:00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr style="color: #464958; height: 1px;">
+			<div class="row">
+				<div class="col-xxl-3 col-xl-3 col-lg-3">
+					<a href="#" class="subfooter">Карта сайта</a>
+				</div>
+				<div class="col-xxl-3 col-xl-3 col-lg-3">
+					<a href="#" class="subfooter">Обработка персональных данных</a>
+				</div>
+				<div class="col-xxl-3 col-xl-3 col-lg-3">
+					<a href="#" class="subfooter">Политика конфиденциальности</a>
+				</div>
+				<div class="col-xxl-3 col-xl-3 col-lg-3">
+					<a href="#" class="subfooter">Разработка: Design Studio</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- POPUP -->
+	<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" >
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<h1 class="modal__title">Строительно-монтажные работы</h1>
+      	<p class="modal__subtitle">Заполните заявку ниже и наш менеджер свяжется с вами в ближайшее время</p>
+      	<form action="#" class="modal__form">
+   			<div class="form__data form__data_width">
+				<div class="form__wrap-label-and-input">
+					<label for="name" class="form__label form__label_position form__label_bg-white">Имя Фамилия</label>
+					<input type="text" class="form__input form__input_bord-gray-color-black">
+				</div>
+				<div class="form__wrap-label-and-input">
+					<label for="tel" class="form__label form__label_position form__label_bg-white">Номер телефона</label>
+					<input type="tel" class="form__input form__input_bord-gray-color-black">
+				</div>
+				<div class="form__wrap-label-and-input">
+					<label for="email" class="form__label form__label_position form__label_bg-white">Email</label>
+					<input type="email" class="form__input form__input_bord-gray-color-black">
+				</div>
+			</div>   		
+      	</form>
+
+      </div>
+      <div class="modal-footer modal-footer_center">
+        <input type="submit" value="ЗАКАЗАТЬ" class="btn btn-primary modal__btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="border:none;">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal__succes">
+        	<div class="modal__image mb-5">
+        		<img src="img/succes.svg" alt="">
+        	</div>
+        	<h5 class="modal__thanks mt-3">Спасибо!</h5>
+        	<p class="modal__message">Ваша заявка принята</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<!-- POPUP -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/plugins/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.spincrement.js"></script>
+<script type="text/javascript" src="slick/slick.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

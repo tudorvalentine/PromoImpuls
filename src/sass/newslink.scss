@@ -11,13 +11,15 @@ $TTN-EB:TTNorms-ExtraBold;
 	position: absolute;
 	top: 0;
 	z-index: -50;
-		background: url('../img/newslink.png');
-		height: 700px;
-		width: 100%;
-	  background-attachment: fixed;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
+	height: 700px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.paralax-image_newslink{
+	background: url('../img/newslink.png') no-repeat;
+	
 }
 .main{
 	margin-top: 20%;
@@ -87,18 +89,96 @@ $TTN-EB:TTNorms-ExtraBold;
 			color: #5F6C72;
 		}
 	}
+	&__wrap-list-benefits{
+		h3{
+			font-family: $TTN-EB;
+			font-weight: bold;
+			font-size: 22px;
+			line-height: 150%;
+		}
+	&__list-benefits{
+		li{
+
+		font-family: $TTN-R;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 180%;
+		}
+	}
 }
+
+}
+//slider
 .wrap__slider{
+	position: relative;
 }
 .arrow	{
-		position: relative;
+
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 45%;
 		
 	&__news_size{
 		width: 45px;
 		height: 45px;
 	}
-	&__next-pos{
-		position: absolute;
+}
+/////
+.accordion-button{
+	font-family: $TTN-B;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+}
 
+.file {
+	display: flex;
+	align-items: center;
+
+	/* .file__format */
+	&__format {
+		width: 60px;
+		height: 60px;
+		background: url('../img/pdf.svg') no-repeat center center;
+		background-color:#EDEDED;
+		
+	}
+	/* .file__name */
+	&__name {
+		width: 80%;
+		strong{
+			margin-left: 1em;
+			font-family: $TTN-B;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 150%;
+		}
+	}
+	/* .file__download */
+	&__download {
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 180px;
+		height: 60px;
+		background-color: $blue;
+		border: none;
+		color: white;
+		font-family: $TTN-B;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 24px;
+		letter-spacing: 0.1em;
+		transition: background-color .5s ease;
+	}
+	&__download:hover {
+		background-color:#32A1DF;
+		color: white;
 	}
 }

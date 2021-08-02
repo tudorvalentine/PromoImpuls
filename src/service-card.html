@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"ru",
+"title":"News",
+"description":"Promo"
+})
+
+<body>
+	<div class="container">
+		@@include('components/page-blocks/_navbar.html',{
+			"namebrand":"brand.png"
+		})
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+		    <li class="breadcrumb-item"><a href="services.html">Услуги</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">Строительно-монтажные работы</li>
+		  </ol>
+		</nav>
+	</div>
+	<div class="paralax-image paralax-image_service-card"></div>
+	<div class="service-description">
+		<div class="container">
+			<div class="row">
+				<div class="col-xxl-12">
+					<div class="service-description__wrap-main">
+						<div class="service-description__inner-main service-description__inner-main_bg-blue">
+							<h2 class="service-description__title">Строительно-монтажные работы</h2>
+							<div class="service-description__link">
+								<a data-bs-toggle="modal" href="#exampleModalToggle" role="button" class="service-description__buy">ЗАКАЗАТЬ</a>
+							</div>
+						</div>
+						<div class="service-description__inner-main service-description__inner-main_bg-white">
+							<strong class="service-description__paragraph">Монтаж котельных является основным направлением деятельности нашей компании. Как правило, при монтаже котельных установок и монтаже котлов устанавливаются не только сами котлы, но и вспомогательное оборудование, такое как горелочные устройства, теплообменники, насосы котловог и сетевого контуров, группа безопасности, силовое электрооборудование.</strong>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xxl-12">
+					<div class="service-description__wrap-main">
+						<div class="service-description__text service-description__text_font">
+							<p>
+								Монтаж котлов отопления является одним из самых сложных этапов строительства, данный вид работ подразумевает под собой не только установку котлов отопления, но и их обвязку. Перед тем как производить монтаж котлов, необходимо просчитать нагрузку, которую данные котлы будут оказывать на фундамент. При монтаже котлов отопления больших мощностей требуется, как правило, дополнительный фундамент. Необходимые разместить котлы таким образом в помещении, чтобы была возможность проведения их технического обслуживания. Монтаж котельных установок, а в частности установка газовых котлов, требует детального расчёта диаметров подающих и обратных трубопроводов котлового контура (так называемых распределительных гребёнок — при разделении котлового и сетевого контуров). При слишком малом диаметре трубопроводов, при нагреве воды будет происходить большой скачок давления (до 10 кг/см3), что будет приводить к срабатыванию автоматики безопасности и остановке котельной.
+							</p>
+						</div>
+						<div class="service-description__text  service-description__inner-main_bg-blue service-description__text_spacing" >
+							<div class="service-description__line"></div>
+							<div class="service-description__wrap-number">
+								<div class="service-description__number">
+									234
+								</div>
+								<strong class="service-description__number-text">
+									Довольных клиента
+								</strong>
+							</div>
+							<div class="service-description__wrap-number">
+								<div class="service-description__number">
+									24
+								</div>
+								<strong class="service-description__number-text">
+									Еще одна цифра инфографика
+								</strong>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xxl-3">
+					<div class="service-description__titleoftwopart">Заголовок</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xxl-6">
+					<div class="service-description__text_font">
+						<p>
+							При большом диаметре не вся вода будет достаточно нагрета и не будет соответствовать технологическим нуждам. Монтаж котельного оборудования включает в себя также монтаж теплообменников, их необходимо подбирать зная параметры котлового и сетевого контуров отопления и ГВС. Основная функция теплообменников в котельной — не дать жёсткой сетевой воде попасть в котлы, таким образом продлевая эксплуатацию оборудования.
+						</p>
+						<p>
+							После монтажа котельного оборудования и сдачи котельной в эксплуатацию наша компания, в соответствии с Российским законодательствам, даёт 24 — месячную гарантию.
+						</p>
+					</div>
+				</div>
+			</div>
+				
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+				<div class="wrap__slider main__slider_center">
+						<div class="main__slider main__slider_center">
+							<div class="main__slider-content"><img src="img/slide_service.png" alt=""></div>
+							<div class="main__slider-content"><img src="img/slide_service.png" alt=""></div>
+							<div class="main__slider-content"><img src="img/slide_service.png" alt=""></div>
+						</div>
+					<div class="arrow arrow-service"></div>
+					</div>
+		</div>
+	</div>
+	<section class="form">
+		<div class="container">
+			<div class="row">
+				<div class="col-xxl-4">
+					<h3 class="form__head">Для получения детальной информации воспользуйтесь формой обратной связи</h3>
+				</div>
+				<div class="col-xxl-8">
+					<form action="" class="form__form">
+						<div class="form__data">
+							<div class="form__wrap-label-and-input">
+								<label for="name" class="form__label form__label_position form__label_bg-dark">Имя Фамилия</label>
+								<input type="text" class="form__input form__input_see">
+							</div>
+							<div class="form__wrap-label-and-input">
+								<label for="tel" class="form__label form__label_position form__label_bg-dark">Номер телефона</label>
+								<input type="tel" class="form__input form__input_see ">
+							</div>
+							<div class="form__wrap-label-and-input">
+								<label for="email" class="form__label form__label_position form__label_bg-dark">Email</label>
+								<input type="email" class="form__input form__input_see">
+							</div>
+						</div>
+						<div class="form__wrap-textarea-and-btn">
+							<textarea class="form__textarea form__input_see" rows="7" placeholder="Ваш вопрос"></textarea>
+							<input class="file__download form__submit_lock" type="submit" value="ЗАДАТЬ ВОПРОС">
+						</div>
+						
+					</form>
+				</div>
+					</div>
+			</div>
+	</section>
+
+
+@@include('components/page-blocks/_footer.html')
+	<!-- POPUP -->
+	<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" >
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<h1 class="modal__title">Строительно-монтажные работы</h1>
+      	<p class="modal__subtitle">Заполните заявку ниже и наш менеджер свяжется с вами в ближайшее время</p>
+      	<form action="#" class="modal__form">
+   			<div class="form__data form__data_width">
+				<div class="form__wrap-label-and-input">
+					<label for="name" class="form__label form__label_position form__label_bg-white">Имя Фамилия</label>
+					<input type="text" class="form__input form__input_bord-gray-color-black">
+				</div>
+				<div class="form__wrap-label-and-input">
+					<label for="tel" class="form__label form__label_position form__label_bg-white">Номер телефона</label>
+					<input type="tel" class="form__input form__input_bord-gray-color-black">
+				</div>
+				<div class="form__wrap-label-and-input">
+					<label for="email" class="form__label form__label_position form__label_bg-white">Email</label>
+					<input type="email" class="form__input form__input_bord-gray-color-black">
+				</div>
+			</div>   		
+      	</form>
+
+      </div>
+      <div class="modal-footer modal-footer_center">
+        <input type="submit" value="ЗАКАЗАТЬ" class="btn btn-primary modal__btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="border:none;">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal__succes">
+        	<div class="modal__image mb-5">
+        		<img src="img/succes.svg" alt="">
+        	</div>
+        	<h5 class="modal__thanks mt-3">Спасибо!</h5>
+        	<p class="modal__message">Ваша заявка принята</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<!-- POPUP -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/plugins/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.spincrement.js"></script>
+<script type="text/javascript" src="slick/slick.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

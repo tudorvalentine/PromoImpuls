@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"ru",
+"title":"News",
+"description":"Promo"
+})
+
+<body>
+	<div class="container">
+		@@include('components/page-blocks/_navbar.html',{
+			"color":"text-color",
+			"namebrand":"brand_news.png"
+		})
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">Услуги</li>
+		  </ol>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xxl-12">
+				<h1 class="title">Услуги</h1>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+					<div class="direction__cartwrap services_spacing">
+						<div class="direction__card">
+							<div class="direction__imgcard">
+								<img  src="img/imgcard1.png" alt="">
+								<div class="direction__linkto">
+									<a href="service-card.html">Строительно-монтажные работы</a>
+									<div class="direction__arrow">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="direction__card">
+							<div class="direction__imgcard">
+								<img  src="img/imgcard2.png" alt="">
+								<div class="direction__linkto">
+									<a href="#">Проектирование объектов теплоэнергетики</a>
+									<div class="direction__arrow">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="direction__card">
+							<div class="direction__imgcard">
+								<img  src="img/imgcard3.png" alt="">
+							</div>
+								<div class="direction__linkto">
+									<a href="#">Техническое обслуживание объектов теплоэнергетики</a>
+									<div class="direction__arrow">
+									</div>
+								</div>
+						</div>
+					</div>
+			</div>
+	</div>
+	
+@@include('components/page-blocks/_footer.html')
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="js/plugins/pagination.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
